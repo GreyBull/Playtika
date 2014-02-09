@@ -7,4 +7,14 @@
 
     <display-name>Playtika Calculator</display-name>
 
+    <servlet>
+        <servlet-name>Calculator</servlet-name>
+        <servlet-class>com.playtika.calculator.Calculator</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Calculator</servlet-name>
+        <url-pattern>/calc</url-pattern>
+    </servlet-mapping>
+
 </web-app>
